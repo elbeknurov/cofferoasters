@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  font-family: "Fraunces", serif;
+}
+.container {
+  width: 1300px;
+  padding: 0;
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 44px;
+  margin-bottom: 45px;
+}
+.div-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.coffeeroasters {
+  color: #333d4b;
+}
+
+.nav-list {
+  display: flex;
+  gap: 33px;
+}
+
+.nav-ahref {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.nav-ahref:hover {
+  color: #333d4b;
+}
+.nav-ahref:active {
+  color: #66d2cf;
+}
+.section-top {
+  background-image: url("../images/img/Bitmap.png");
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section-top {
+  padding: 117px;
+  padding-left: 85px;
+  padding-bottom: 116px;
+  margin-bottom: 136px;
+}
+.section-top-item {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+  width: 493px;
+  margin-bottom: 32px;
+}
+.section-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  opacity: 0.8;
+  width: 445px;
+  margin-bottom: 56px;
+}
+.your-plan-btn {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  background: #66d2cf;
+  border-radius: 6px;
+  padding: 15px 31px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.your-plan-btn:hover {
+  background-color: dimgray;
+}
+.picallo-cards {
+  margin-bottom: 200px;
+  position: relative;
+}
+.picallo-cards::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/img/Group13.svg);
+  background-repeat: no-repeat;
+  top: -130px;
+  left: 100px;
+  z-index: -1;
+  width: 1111px;
+  height: 196px;
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%);
+}
+.picallo-cards-div {
+  display: flex;
+  z-index: -1;
+  justify-content: space-between;
+}
+.div-picallo-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.picallo-item {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  color: #333d4b;
+}
+.picallo-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+  width: 255px;
+  color: #333d4b;
+}
+.chooseus {
+  background: #2c343e;
+  border-radius: 10px;
+  padding-top: 100px;
+  padding-left: 370px;
+  padding-right: 370px;
+  padding-bottom: 317px;
+}
+.why-choose-item {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+
+  color: #fefcf7;
+  margin-bottom: 32px;
+}
+.choose-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  color: #fefcf7;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.delivery {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: -250px;
+  margin-bottom: 200px;
+}
+.delivery-cards {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #0e8784;
+  border-radius: 8px;
+  width: 352px;
+  padding-top: 72px;
+  padding-bottom: 48px;
+}
+.delivery-item {
+  margin-top: 56px;
+  margin-bottom: 24px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #fefcf7;
+}
+.delivery-text {
+  width: 255px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.plan-div-father {
+  display: flex;
+  justify-content: space-between;
+}
+.howitworks {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  color: #83888f;
+  margin-bottom: 80px;
+}
+.line-img {
+  margin-bottom: 67px;
+}
+
+.number {
+  display: block;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+  margin-bottom: 38px;
+}
+.plan-item {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-bottom: 42px;
+}
+.item-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  width: 285px;
+  color: #333d4b;
+  margin-bottom: 64px;
+}
+.your-plan-btn {
+  background: #66d2cf;
+  border-radius: 6px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  border: none;
+}
+.btn {
+  margin-bottom: 320px;
+}
+
+.footer {
+  background: #2c343e;
+  display: flex;
+  padding: 48px 85px;
+  align-items: center;
+  gap: 5px;
+}
+
+.coffeeroasters-footer {
+  background: #ffffff;
+}
+.footer-item {
+  display: flex;
+  gap: 33px;
+  margin-left: 103px;
+}
+.footer-ahref {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+
+  color: #83888f;
+}
+.footer-ahref:hover {
+  color: #fefcf7;
+}
+.footer-ahref:active {
+  color: dimgray;
+}
+.footer-icon {
+  margin-left: 370px;
+}
+.footer-icon {
+  display: flex;
+  gap: 24px;
+}
