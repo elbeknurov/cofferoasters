@@ -1,0 +1,77 @@
+.choose {
+  background: #2c343e;
+  border-radius: 10px;
+  padding-top: 100px;
+  padding-left: 370px;
+  padding-right: 370px;
+  padding-bottom: 317px;
+
+  .choose__item {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    color: #fefcf7;
+    margin-bottom: 32px;
+  }
+  .choose__text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}
+.delivery {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: -250px;
+  margin-bottom: 200px;
+}
+.delivery__cards {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #0e8784;
+  border-radius: 8px;
+  width: 352px;
+  padding-top: 72px;
+  padding-bottom: 48px;
+}
+.delivery__item {
+  margin-top: 56px;
+  margin-bottom: 24px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #fefcf7;
+}
+.delivery__text {
+  width: 255px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+}

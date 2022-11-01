@@ -1,0 +1,52 @@
+.picallo-cards {
+  margin-bottom: 200px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/img/Group13.svg);
+    background-repeat: no-repeat;
+    top: -130px;
+    left: 100px;
+    z-index: -1;
+    width: 1111px;
+    height: 196px;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%);
+  }
+  .picallo__cards__div {
+    display: flex;
+    z-index: -1;
+    justify-content: space-between;
+  }
+  .picallo__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .picallo__item {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    color: #333d4b;
+  }
+  .picallo__text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+    width: 255px;
+    color: #333d4b;
+  }
+}

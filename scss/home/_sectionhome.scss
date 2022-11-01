@@ -1,0 +1,53 @@
+.home__section {
+  background-image: url("../../images/img/Bitmap.png");
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-bottom: 136px;
+
+  .home__divwrapper {
+    padding: 117px 702px 116px 85px;
+  }
+
+  .aboutus__item {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+    margin-bottom: 24px;
+    color: #fefcf7;
+  }
+  .aboutus__text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #fefcf7;
+    width: 445px;
+    margin-bottom: 56px;
+  }
+  .your-plan-btn {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #fefcf7;
+    background: #66d2cf;
+    border-radius: 6px;
+    padding: 15px 31px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    &:hover {
+      background-color: dimgray;
+    }
+  }
+}

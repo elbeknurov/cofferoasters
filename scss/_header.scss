@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 44px;
+  margin-bottom: 45px;
+
+  .header__div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .header__coffeeroasters {
+    color: #333d4b;
+  }
+  .nav {
+    .nav__list {
+      display: flex;
+      gap: 33px;
+    }
+
+    .nav__ahref {
+      font-family: "Barlow";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.923077px;
+      text-transform: uppercase;
+      color: #83888f;
+
+      &:hover {
+        color: #333d4b;
+      }
+      &:active {
+        color: #66d2cf;
+      }
+    }
+  }
+}
