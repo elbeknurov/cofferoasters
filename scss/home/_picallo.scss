@@ -5,12 +5,12 @@
   &::before {
     content: "";
     position: absolute;
-    background-image: url(../images/img/Group13.svg);
+    background-image: url(../../images/img/Group13.svg);
     background-repeat: no-repeat;
     top: -130px;
     left: 100px;
     z-index: -1;
-    width: 1111px;
+    max-width: 1111px;
     height: 196px;
     background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%);
   }
@@ -46,7 +46,47 @@
     /* or 162% */
 
     text-align: center;
-    width: 255px;
+    max-width: 255px;
     color: #333d4b;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .picallo-cards {
+    .picallo__cards__div {
+      flex-direction: column;
+
+      .picallo__card {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+  .picallo__item {
+    font-size: 24px;
+    line-height: 32px;
+    width: 255px;
+  }
+  .picallo__text {
+    font-size: 15px;
+    line-height: 25px;
+    width: 282px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .picallo-cards {
+    .picallo__cards__div {
+      .picallo__card {
+        flex-direction: column;
+      }
+    }
+    .picallo__item {
+      text-align: none;
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .picallo__text {
+      font-size: 15px;
+      line-height: 25px;
+    }
   }
 }

@@ -1,67 +1,54 @@
-.drink-section {
-  display: flex;
-  gap: 125px;
-  justify-content: center;
-  .drink__item {
-    .list {
-      font-family: "Fraunces 9pt";
-      font-style: normal;
-      font-weight: 900;
-      font-size: 24px;
-      line-height: 32px;
-      color: #333d4b;
-      margin-bottom: 24px;
-      color: #83888f;
-      display: flex;
-      gap: 28px;
-      border-bottom: 1px solid #83888f;
-      &:hover {
-        color: #333d4b;
-      }
-    }
-    .drink__span {
-      font-family: "Fraunces 9pt";
-      font-style: normal;
-      font-weight: 900;
-      font-size: 24px;
-      line-height: 32px;
-      /* identical to box height, or 133% */
+.drink {
+  margin-top: 159px;
+  .drink__divf {
+    display: flex;
+    gap: 125px;
+  }
 
-      color: #0e8784;
-    }
-    .hr {
-      margin-top: 24px;
-      max-width: 255px;
-      background: #83888f;
-      mix-blend-mode: normal;
-      opacity: 0.25;
+  .drink__item {
+    display: flex;
+    gap: 28px;
+  }
+  .drink__list {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888f;
+    margin-bottom: 24px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    &:hover {
+      color: #333d4b;
     }
   }
-  .drink__divs {
+  .drink__hr {
+    background: #83888f;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    max-width: 255px;
+    margin-bottom: 24px;
   }
-  .howdoyou {
+
+  .drink-right__item {
     font-family: "Fraunces 9pt";
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
     line-height: 48px;
-    /* identical to box height, or 120% */
-
     color: #83888f;
     margin-bottom: 56px;
   }
-  .div__drink__top {
+  .drink-right__wrapper {
     display: flex;
     gap: 23px;
-    align-items: center;
     margin-bottom: 88px;
   }
-  .drink__father {
-  }
-  .div_drink {
-    max-width: 228px;
+  .drink__wrapper {
     background: #f4f1eb;
     border-radius: 8px;
+    max-width: 228px;
     padding-top: 32px;
     padding-left: 28px;
     padding-bottom: 84px;
@@ -72,8 +59,6 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
-    /* identical to box height, or 133% */
-
     color: #333d4b;
     margin-bottom: 24px;
   }
@@ -83,53 +68,50 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
-
     color: #333d4b;
     max-width: 172px;
   }
-  .green {
-    background: #0e8784;
-  }
-  .color {
-    color: #ffffff;
-  }
-  .summary {
+  .drink__black {
     background: #2c343e;
-    padding: 27px 24px 27px 64px;
-    .order {
-      font-family: "Barlow";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 26px;
-      /* identical to box height, or 162% */
-
-      text-transform: uppercase;
-
-      color: #ffffff;
-
-      mix-blend-mode: normal;
-      opacity: 0.5;
-    }
-    .order__bottom {
-      font-family: "Fraunces 9pt";
-      font-style: normal;
-      font-weight: 900;
-      font-size: 24px;
-      line-height: 40px;
-      /* or 167% */
-
-      max-width: 602px;
-      color: #ffffff;
-    }
+    max-width: 100%;
+    margin-bottom: 40px;
+    padding-top: 27px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 27px;
   }
-  .green2 {
-    color: #0e8784;
+  .drink-black__text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 8px;
   }
-  .summary__btn {
+  .drink-black__item {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+
+    color: #ffffff;
+    max-width: 602px;
+  }
+  .drink__btn {
+    margin-bottom: 168px;
     background: #0e8784;
     border-radius: 6px;
+    border: none;
     font-family: "Fraunces 9pt";
     font-style: normal;
     font-weight: 900;
@@ -138,9 +120,19 @@
     text-align: center;
     color: #fefcf7;
     padding: 15px 35px;
-    border: none;
-    margin-top: 40px;
-    margin-left: 500px;
-    margin-bottom: 168px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    &:hover {
+      background-color: #83888f;
+    }
+  }
+  .green {
+    background: #0e8784;
+  }
+  .color {
+    color: #fff;
+  }
+  .green2 {
+    color: #0e8784;
   }
 }

@@ -37,4 +37,19 @@
       }
     }
   }
+
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .header {
+    .nav__item {
+      display: none;
+    }
+    .hamburger-menu {
+      display: block;
+    }
+  }
 }

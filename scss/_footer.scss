@@ -6,6 +6,12 @@
   gap: 5px;
   margin-bottom: 88px;
 
+  .footer__div1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
   .coffeeroasters {
     color: #ffffff;
   }
@@ -39,5 +45,41 @@
   .footer-icon {
     display: flex;
     gap: 24px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    .footer__div1 {
+      margin-bottom: 33px;
+    }
+    .footer-item {
+      margin: 0;
+      margin-bottom: 65px;
+    }
+    .footer-icon {
+      margin: 0px;
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footer {
+    .footer-item {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+}
+@media only screen and (max-width: 330px) {
+  .footer {
+    padding: 0px 20px;
   }
 }

@@ -1,15 +1,11 @@
 .home__section {
   background-image: url("../../images/img/Bitmap.png");
-  width: 100%;
-  height: 600px;
-  background-size: contain;
+  max-width: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
   margin-bottom: 136px;
-
-  .home__divwrapper {
-    padding: 117px 702px 116px 85px;
-  }
+  padding: 105px 85px;
 
   .aboutus__item {
     font-family: "Fraunces 9pt";
@@ -30,7 +26,7 @@
     /* or 162% */
 
     color: #fefcf7;
-    width: 445px;
+    max-width: 445px;
     margin-bottom: 56px;
   }
   .your-plan-btn {
@@ -48,6 +44,56 @@
     transition: all 0.3s linear;
     &:hover {
       background-color: dimgray;
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .home__section {
+    padding: 104px 58px;
+    .aboutus__text {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .home__section {
+    padding: 50px 58px;
+    .home__divwrapper {
+      padding: 0;
+    }
+    .aboutus__item {
+      font-size: 48px;
+      line-height: 48px;
+      margin-bottom: 24px;
+    }
+    .aboutus__text {
+      font-size: 15px;
+      line-height: 25px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media only screen and(max-width:750px) {
+  .home__section {
+    background-position: -350px;
+  }
+}
+@media only screen and(max-width:370px) {
+  .home__section {
+    text-align: center;
+    padding: 10px 10px;
+    .aboutus__item {
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+    }
+    .aboutus__text {
+      font-size: 15px;
+      line-height: 25px;
+      width: 270px;
     }
   }
 }

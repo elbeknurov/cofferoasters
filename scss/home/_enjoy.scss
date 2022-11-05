@@ -1,0 +1,49 @@
+.enjoy {
+  background: #2c343e;
+  border-radius: 10px;
+  max-width: 100%;
+  height: 653px;
+
+  &__div {
+    padding-top: 91px;
+    padding-left: 85px;
+    padding-right: 150px;
+  }
+
+  .enjoy__img {
+    margin-bottom: 67px;
+  }
+  .enjoy__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .enjoy__span {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fdd6ba;
+  }
+  .enjoy__item {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #fefcf7;
+    max-width: 255px;
+    margin-top: 38px;
+    margin-bottom: 42px;
+  }
+  .enjoy__text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    max-width: 285px;
+  }
+}

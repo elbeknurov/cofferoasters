@@ -28,23 +28,39 @@
               <a class="nav__ahref" href="./index2.html"> ABOUT US</a>
             </li>
             <li class="nav__item">
-              <a class="nav__ahref" href="#"> Create your plan</a>
+              <a class="nav__ahref" href="./index3.html"> Create your plan</a>
             </li>
           </ul>
         </nav>
+        <svg
+          class="hamburger-menu"
+          width="16"
+          height="15"
+          viewBox="0 0 16 15"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="Combined Shape 2">
+            <path
+              id="Combined Shape"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 1.5C0 0.671573 0.671573 0 1.5 0H14.5C15.3284 0 16 0.671573 16 1.5C16 2.32843 15.3284 3 14.5 3H1.5C0.671573 3 0 2.32843 0 1.5ZM0 7.5C0 6.67157 0.671573 6 1.5 6H14.5C15.3284 6 16 6.67157 16 7.5C16 8.32843 15.3284 9 14.5 9H1.5C0.671573 9 0 8.32843 0 7.5ZM1.5 12C0.671573 12 0 12.6716 0 13.5C0 14.3284 0.671573 15 1.5 15H14.5C15.3284 15 16 14.3284 16 13.5C16 12.6716 15.3284 12 14.5 12H1.5Z"
+              fill="#333D4B"
+            />
+          </g>
+        </svg>
       </header>
       <main class="main">
         <section class="home__section">
-          <div class="home__divwrapper">
-            <h3 class="aboutus__item">About Us</h3>
-            <p class="aboutus__text">
-              Coffeeroasters began its journey of exotic discovery in 1999,
-              highlighting stories of coffee from around the world. We have
-              since been dedicated to bring the perfect cup - from bean to brew
-              - in every shipment.
-            </p>
-            <button class="your-plan-btn">Create your plan</button>
-          </div>
+          <h3 class="aboutus__item">Great coffee made simple.</h3>
+          <p class="aboutus__text">
+            Coffeeroasters began its journey of exotic discovery in 1999,
+            highlighting stories of coffee from around the world. We have since
+            been dedicated to bring the perfect cup - from bean to brew - in
+            every shipment.
+          </p>
+          <button class="your-plan-btn">Create your plan</button>
         </section>
         <section class="picallo-cards">
           <div class="picallo__cards__div">
@@ -55,11 +71,13 @@
                 src="./images/img/kopi1copy@2x.svg"
                 alt="picallo-img"
               />
-              <h5 class="picallo__item">Gran Espresso</h5>
-              <p class="picallo__text">
-                Light and flavorful blend with cocoa and black pepper for an
-                intense experience
-              </p>
+              <div class="picallo__div">
+                <h5 class="picallo__item">Gran Espresso</h5>
+                <p class="picallo__text">
+                  Light and flavorful blend with cocoa and black pepper for an
+                  intense experience
+                </p>
+              </div>
             </div>
             <div class="picallo__card">
               <img
@@ -68,11 +86,13 @@
                 src="./images/img/kopi1copy@2x.svg"
                 alt="picallo-img"
               />
-              <h5 class="picallo__item">Planalto</h5>
-              <p class="picallo__text">
-                Brazilian dark roast with rich and velvety body, and hints of
-                fruits and nuts
-              </p>
+              <div class="picallo__div">
+                <h5 class="picallo__item">Planalto</h5>
+                <p class="picallo__text">
+                  Brazilian dark roast with rich and velvety body, and hints of
+                  fruits and nuts
+                </p>
+              </div>
             </div>
             <div class="picallo__card">
               <img
@@ -81,11 +101,13 @@
                 src="./images/img/kopi1copy@2x.svg"
                 alt="picallo-img"
               />
-              <h5 class="picallo__item">Piccollo</h5>
-              <p class="picallo__text">
-                Mild and smooth blend featuring notes of toasted almond and
-                dried cherry
-              </p>
+              <div class="picallo__div">
+                <h5 class="picallo__item">Piccollo</h5>
+                <p class="picallo__text">
+                  Mild and smooth blend featuring notes of toasted almond and
+                  dried cherry
+                </p>
+              </div>
             </div>
             <div class="picallo__card">
               <img
@@ -94,22 +116,26 @@
                 src="./images/img/kopi1copy@2x.svg"
                 alt="picallo-img"
               />
-              <h5 class="picallo__item">Danche</h5>
-              <p class="picallo__text">
-                Ethiopian hand-harvested blend densely packed with vibrant fruit
-                notes
-              </p>
+              <div class="picallo__div">
+                <h5 class="picallo__item">Danche</h5>
+                <p class="picallo__text">
+                  Ethiopian hand-harvested blend densely packed with vibrant
+                  fruit notes
+                </p>
+              </div>
             </div>
           </div>
         </section>
         <section class="choose">
-          <h3 class="choose__item">Why choose us?</h3>
-          <p class="choose__text">
-            A large part of our role is choosing which particular coffees will
-            be featured in our range. This means working closely with the best
-            coffee growers to give you a more impactful experience on every
-            level.
-          </p>
+          <div class="choose__div">
+            <h3 class="choose__item">Why choose us?</h3>
+            <p class="choose__text">
+              A large part of our role is choosing which particular coffees will
+              be featured in our range. This means working closely with the best
+              coffee growers to give you a more impactful experience on every
+              level.
+            </p>
+          </div>
         </section>
         <section class="delivery">
           <div class="delivery__cards">
@@ -119,27 +145,33 @@
               src="./images/img/coffee-bean.svg"
               alt="coffe-bean"
             />
-            <h5 class="delivery__item">Best quality</h5>
-            <p class="delivery__text">
-              Discover an endless variety of the world’s best artisan coffee
-              from each of our roasters.
-            </p>
+            <div class="delivery__card">
+              <h5 class="delivery__item">Best quality</h5>
+              <p class="delivery__text">
+                Discover an endless variety of the world’s best artisan coffee
+                from each of our roasters.
+              </p>
+            </div>
           </div>
           <div class="delivery__cards">
             <img src="./images/img/CombinedShape(1).svg" alt="coffe-bean" />
-            <h5 class="delivery__item">Exclusive benefits</h5>
-            <p class="delivery__text">
-              Special offers and swag when you subscribe, including 30% off your
-              first shipment.
-            </p>
+            <div class="delivery__card">
+              <h5 class="delivery__item">Exclusive benefits</h5>
+              <p class="delivery__text">
+                Special offers and swag when you subscribe, including 30% off
+                your first shipment.
+              </p>
+            </div>
           </div>
           <div class="delivery__cards">
             <img src="./images/img/CombinedShape(2).svg" alt="coffe-bean" />
-            <h5 class="delivery__item">Free shipping</h5>
-            <p class="delivery__text">
-              We cover the cost and coffee is delivered fast. Peak freshness:
-              guaranteed.
-            </p>
+            <div class="delivery__card">
+              <h5 class="delivery__item">Free shipping</h5>
+              <p class="delivery__text">
+                We cover the cost and coffee is delivered fast. Peak freshness:
+                guaranteed.
+              </p>
+            </div>
           </div>
         </section>
         <section class="howtoworks-section">
@@ -183,13 +215,15 @@
         </section>
       </main>
       <footer class="footer">
-        <img
-          width="24"
-          height="24"
-          src="./images/img/CombinedShape(3).svg"
-          alt="coffe-icon"
-        />
-        <h2 class="coffeeroasters">coffeeroasters</h2>
+        <div class="footer__div1">
+          <img
+            width="24"
+            height="24"
+            src="./images/img/CombinedShape(3).svg"
+            alt="coffe-icon"
+          />
+          <h2 class="coffeeroasters">coffeeroasters</h2>
+        </div>
         <div class="footer-div">
           <ul class="footer-item">
             <li class="footer-list">

@@ -1,40 +1,37 @@
 .choose {
   background: #2c343e;
+  max-width: 100%;
+  min-height: 577px;
   border-radius: 10px;
-  padding-top: 100px;
-  padding-left: 370px;
-  padding-right: 370px;
-  padding-bottom: 317px;
-
-  .choose__item {
-    font-family: "Fraunces 9pt";
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 48px;
-    /* identical to box height, or 120% */
-
-    text-align: center;
-
-    color: #fefcf7;
-    margin-bottom: 32px;
-  }
-  .choose__text {
-    font-family: "Barlow";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    /* or 162% */
-
-    text-align: center;
-
-    color: #fefcf7;
-
-    mix-blend-mode: normal;
-    opacity: 0.8;
-  }
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
 }
+
+.choose__item {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #fefcf7;
+  margin-bottom: 32px;
+}
+.choose__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+  max-width: 540px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
 .delivery {
   display: flex;
   justify-content: center;
@@ -42,6 +39,7 @@
   margin-top: -250px;
   margin-bottom: 200px;
 }
+
 .delivery__cards {
   display: flex;
   justify-content: space-between;
@@ -50,7 +48,8 @@
   flex-direction: column;
   background: #0e8784;
   border-radius: 8px;
-  width: 352px;
+  max-width: 352px;
+  width: 100%;
   padding-top: 72px;
   padding-bottom: 48px;
 }
@@ -66,7 +65,7 @@
   color: #fefcf7;
 }
 .delivery__text {
-  width: 255px;
+  max-width: 255px;
   font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
@@ -74,4 +73,29 @@
   line-height: 26px;
   text-align: center;
   color: #fefcf7;
+}
+
+@media only screen and (max-width: 890px) {
+  .delivery {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .delivery__cards {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .choose {
+    height: 327px;
+  }
+  .delivery__cards {
+    display: flex;
+    flex-direction: column;
+  }
 }
